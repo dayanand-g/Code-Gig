@@ -1,0 +1,152 @@
+
+  .login {
+	margin: 0 auto;
+	width: 510px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	padding: 30px 70px 143px 70px;
+	margin-top: 1rem;
+  }
+  
+  .login h1 {
+	color: white;
+	padding-bottom: 0px;
+	margin-bottom: .77rem;
+	margin-left: 1px;
+  }
+  
+  .input-text {
+	margin-bottom: 20px;
+  }
+  
+  .input-text input {
+	width: 100%;
+	height: 45px;
+	background-color: rgb(78, 76, 76);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	outline: transparent;
+	text-indent: 18px;
+  }
+  
+  .input-text input::-webkit-input-placeholder {
+	font-size: 1rem;
+	color: white;
+  }
+  
+  .input-text input::-moz-placeholder {
+	font-size: 1rem;
+	color: white;
+	text-indent: 40px;
+  }
+  
+  .login-button {
+	margin-top: 22px;
+	width: 50px;
+	padding: 11px;
+	border-radius: 5px;
+	background-color: #64a5b7;
+	color: white;
+	border: none;
+	font-weight: bold;
+	font-size: 1.05rem;
+	cursor: pointer;
+  }
+  
+  .remember-flex {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+  }
+  
+  .color_text {
+	color: #b3b3b3;
+  }
+  
+  .color_link {
+	color: #737373;
+  }
+  
+  .signup-link {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .warning-input {
+	display: none;
+	color: #e87c03;
+	font-size: 0.8rem;
+	margin-top: 6px;
+  }
+  
+  .signup-link:hover {
+	text-decoration: underline;
+  }
+  
+  .log_face {
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 0.8rem;
+  }
+  
+  .login-face {
+	margin: 50px 0 15px 0;
+	vertical-align: middle;
+	color: #8c8c8c;
+  }
+  
+  .new-members {
+	margin-bottom: 10px;
+	color: #b9b6b6;
+  }
+  
+  .tel-link {
+	text-decoration: none;
+	color: #757575;
+  }
+  
+  .tel-link:hover {
+	text-decoration: underline;
+  }
+  
+  
+  @media screen and (max-width: 740px) {
+	body {
+	  background: black;
+	}
+  
+	.img-logo {
+	  margin-left: 22px;
+	}
+  
+	.login {
+	  padding: 0 10px 0 10px;
+	  width: 100%;
+	}
+  
+	.login-div {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+  
+	.upper {
+	  padding-bottom: 93px;
+	}
+  
+  }
+  
+  @media screen and (max-width: 500px) {
+	.list-bottom {
+	  width: 50%;
+	}
+  }
+
+  #pass {
+	  margin-bottom: 26px;
+  }
+  
+  
+  
