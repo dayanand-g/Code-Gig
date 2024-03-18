@@ -34,7 +34,6 @@ app.get('/',(req, res) => res.render('index', { layout: 'landing'}));
 
 // Gig routes
 app.use('/gigs', require('./routes/gigs'));
-app.use('/resume', require('./routes/resume'));
 
 const PORT = process.env.PORT || 5000;
 
